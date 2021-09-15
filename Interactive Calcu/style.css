@@ -1,0 +1,29 @@
+html,
+body{
+    text-align: center;
+}
+
+.heading{
+    text-decoration-color:rgb(2,0,36);
+    font-family: 'Times New Roman', Times, serif;
+   text-align: center;
+}
+.buttons{
+    
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, 
+    rgba(2,0,36,1) 0%, rgba(12,56,59,1) 35%, 
+    rgba(0,212,255,1) 100%);
+}
+
+.dark-mode{
+    background-color: black;
+    color: white;
+}
+form{
+    font-family: cursive;
+    font-size: larger;
+    color:red;
+    background-color:rgba(12,56,59,1) ;
+}
+

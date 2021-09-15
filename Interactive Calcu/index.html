@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" 
+    crossorigin="anonymous">
+    <link rel= "stylesheet" href="style.css"/>
+</head>
+
+<body>
+    <div class="heading">
+    <h1>SIMPLE CALCULATOR</h1>
+    </div>
+    <script src="script.js"></script>
+
+    <form>
+        <div class="form-group">
+        <label>First Number</label>
+        <input type="number" class= "form-control" id="num1">
+        </div>
+
+        <div class="form-group">
+        <label>Second Number</label>
+        <input type="number" class= "form-control" id="num2">
+        </div>
+    </form>
+
+    <div class= "buttons">
+        <button class="btn btn-primary" type="submit" onclick="add()">+</button>
+        <button class="btn btn-primary" type="submit" onclick="subtract()">-</button>
+        <button class="btn btn-primary" type="submit" onclick="multiply()">*</button>
+        <button class="btn btn-primary" type="submit" onclick="divide()">/</button>
+
+      
+    </div>
+    <div>
+        <h2 id="answer" text-align="center"></h2>
+    </div>
+         <button type="btn" type="submit" onclick="darkmode()">Dark Mode</button>
+
+        
+</body>
+</html>
